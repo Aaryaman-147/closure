@@ -19,3 +19,15 @@ Traditional to-do lists fail for chronically busy students and developers becaus
 * **AI Model:** Gemma 4 31B-it via the Google GenAI SDK (`@google/genai`)
 * **Document Parsing:** `pdf-parse` (Native Node handling via custom `createRequire` to bypass Turbopack conflicts)
 * **Styling:** Tailwind CSS & Lucide React
+
+🔒 Privacy & Permissions
+Closure is designed to be privacy-first.
+
+The browser extension only tracks domains explicitly approved by the user in the Settings panel.
+
+Unlisted domains are ignored locally and never leave the browser.
+
+Activity logs (Signals) operate on a strict, customizable retention policy (default 30 days) before automatic deletion.
+
+📄 License
+This project is licensed under the MIT License - see the LICENSE file for details.
