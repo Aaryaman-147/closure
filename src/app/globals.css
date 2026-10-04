@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  /* Semantic Status Colors from PRD */
+  --color-status-inbox: var(--color-slate-400);
+  --color-status-active: var(--color-blue-500);
+  --color-status-parked: var(--color-stone-400);
+  --color-status-closed: var(--color-emerald-500);
+  --color-status-attention: var(--color-amber-500);
+  
+  /* Layout constraints */
+  --sidebar-width: 16rem;
+}
+
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-900 antialiased;
+  }
+}

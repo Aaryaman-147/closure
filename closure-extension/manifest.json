@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Closure Observer",
+  "version": "1.0",
+  "description": "Passively collects context for Closure Desk from allowed domains.",
+  "permissions": ["tabs"],
+  "host_permissions": [
+    "*://*.github.com/*", 
+    "*://*.leetcode.com/*", 
+    "*://*.youtube.com/*", 
+    "http://localhost:3000/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
